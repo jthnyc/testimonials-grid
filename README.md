@@ -4,7 +4,7 @@
 
 ## Attempt 1 (November 2, 2020)
 
-![Attempt 1](./images/Attempt1.jpg)
+![Attempt 1](./images/testimonial1.png)
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 
