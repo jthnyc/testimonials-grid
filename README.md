@@ -2,11 +2,9 @@
 
 ![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Attempt 1 (November 2, 2020)
 
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+![Attempt 1](./images/Attempt1.jpg)
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 

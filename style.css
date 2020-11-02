@@ -54,7 +54,12 @@ p {
   margin-top: 7px;
 }
 
-img {
+/* .quote {
+  position: relative;
+  left: 70%;
+} */
+
+.pic {
   border: 1px solid var(--white);
   width: 30px;
   border-radius: 30px;
