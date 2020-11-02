@@ -24,7 +24,7 @@ p {
 }
 
 .container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: grid;
   grid-template-rows: 100%;
   grid-template-columns: 80% 20%;
@@ -38,6 +38,11 @@ p {
   /* border: 1px solid pink; */
   display: flex;
   padding: 10px;
+}
+
+.test {
+  border-radius: 10px;
+  border-style: none;
 }
 
 .verified {
@@ -57,7 +62,7 @@ img {
 }
 
 .left {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: grid;
   grid-template-rows: 50% 50%;
   grid-template-columns: 100%;
@@ -65,34 +70,45 @@ img {
 }
 
 .top {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
+  margin-bottom: 20px;
 }
 
 .bottom {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
 }
 
 .purple {
-  border: 1px dotted purple;
+  /* border: 1px dotted purple; */
   background-color: var(--modviolet);
   color: var(--white);
+  margin-right: 30px;
 }
 
 .gray {
-  border: 1px dotted gray;
+  /* border: 1px dotted gray; */
   background-color: var(--vdarkgrayblue);
   color: var(--white);
 }
 
 .white {
-  border: 1px dotted black;
+  /* border: 1px dotted black; */
   background-color: var(--white);
+  margin-right: 30px;
+  box-shadow: 10px 10px 30px var(--lightgray);
 }
 
 .black {
-  border: 1px dotted white;
+  /* border: 1px dotted white; */
   background-color: var(--vdarkblackblue);
   color: var(--white);
+  box-shadow: 10px 10px 30px var(--lightgray);
+}
+
+.right {
+  background-color: var(--white);
+  margin-left: 20px;
+  box-shadow: 10px 10px 30px var(--lightgray);
 }
