@@ -1,0 +1,41 @@
+html {
+  font-family: "Barlow Semi Condensed", serif;
+  font-size: 13px;
+  --modviolet: hsl(263, 55%, 52%);
+  --vdarkgrayblue: hsl(217, 19%, 35%);
+  --vdarkblackblue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+  --lightgray: hsl(0, 0%, 81%);
+  --lightgrayblue: hsl(210, 46%, 95%);
+}
+
+body {
+  background-color: var(--lightgrayblue);
+}
+
+.container {
+  border: 1px solid red;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 80% 20%;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+
+.left {
+  border: 1px solid black;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 100%;
+}
+
+.top {
+  border: 1px solid green;
+  display: flex;
+}
+
+.bottom {
+  border: 1px solid blue;
+  display: flex;
+}
