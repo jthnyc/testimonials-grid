@@ -15,12 +15,19 @@ body {
 
 blockquote {
   /* border: 1px solid green; */
-  font-size: 18px;
+  font-size: 25px;
+  align-content: center;
+  /* width: 100%; */
 }
 
 p {
+  /* border: 1px solid red; */
   opacity: 70%;
-  padding: 30px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  opacity: 70%;
+  line-height: 2;
 }
 
 .container {
@@ -43,6 +50,9 @@ p {
 .test {
   border-radius: 10px;
   border-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .verified {
